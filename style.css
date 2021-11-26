@@ -1,0 +1,121 @@
+*{ 
+   margin: 0;
+   padding: 0;
+}
+
+
+a{ 
+text-decoration: none;
+}
+
+name{
+text-align: center;
+color: #FFFFFF;
+font-size: 54px;
+}
+
+li{
+text-decoration: none;
+list-style: none;
+}
+
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+.logo{
+background: #000;
+width: 100%;
+display: flex;
+justify-content: left;
+}
+
+
+nav{ margin: auto;
+     width: 800px;
+     heigh: 100px;
+}
+
+
+.topnav{
+       background-color: #fff;
+font-size: 14px;
+margin-top: 40 px;
+}
+
+.topnav a{
+      color: #000;
+text-align: center;
+padding: 14px 16px;
+font-size: 15 px;
+}
+
+
+footer {
+width: 98%;
+float: left;
+padding 1%;
+background-color: #fafafa;
+border-top: 2px solid silver;
+margin-top: 10px;
+}
+
+
+footer #social{
+float: left;
+width: 50%;
+}
+
+footer #rights{
+float: right;
+width: 50%;
+text-align: right;
+font-size: 1.1em;
+}
+
+.flexbox /*общий класс блока, в котором находятся анкета и таблица*/
+
+{
+
+display: flex;
+
+flex-direction: column; /*расположение сверху вниз*/
+
+}
+
+.flexbox div:nth-of-type(2)
+
+{
+
+order: 0;/*меняет расположение таблицы и анкуты местами сверху вниз*/
+
+}
+
+.anket
+
+{
+
+padding-top: 15px;
+
+}
+
+.hello
+
+{
+
+color: azure;
+
+background-color:#BC8F8F;
+
+padding: 10px;
+
+font-size: 17px;
+
+text-shadow: 6px 4px 3px #DEB887;
+
+}
+
+}
